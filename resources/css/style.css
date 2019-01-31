@@ -12,13 +12,6 @@ body {
 
 /* Logo Header */
 
-.banner-content {
-  display: flex;
-  align-items: center;
-  width: 960px;
-  margin: auto;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -29,6 +22,13 @@ header {
   font-size: 1rem;
   padding-top: 0.66rem;
   padding-bottom: 0.66rem;
+}
+
+.banner-content {
+  display: flex;
+  align-items: center;
+  width: 960px;
+  margin: auto;
 }
 
 header img {
@@ -48,10 +48,27 @@ header img {
   width: 100%;
 }
 
+.new-arrival-container {
+  width: 960px;
+  margin: auto;
+}
+
 .new-arrival {
   display: flex;
   flex-direction: column;
   background-color: black;
   color: white;
   width: 20rem;
+  padding: 2rem 3rem;
+  width: 20rem;
+}
+
+.new-arrival h4 {
+  font-size: 1rem;
+  padding-bottom: 0.25rem;
+}
+
+.new-arrival h2 {
+  font-size: 2rem;
+  padding-top: 0.25rem;
 }
