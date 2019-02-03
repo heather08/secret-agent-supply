@@ -167,11 +167,12 @@ nav {
 /* Footer */
 
 footer {
-  background-color: black
+  background-color: black;
   color: white;
   height: 5rem;
   width: 100%;
   margin: auto;
+  padding-top: 4rem;
 }
 
 .footer-content {
