@@ -189,7 +189,7 @@ footer {
 @media only screen and (max-width: 1024px) {
   .info-container, .product-container, nav, header, .banner-container {
     width: auto;
-    border: 1px solid white;
+    overflow: hidden;
   }
   .menu span {
     display: none;
@@ -203,36 +203,44 @@ footer {
   .product {
     width: 47%;
   }
+  .footer-content {
+    max-width: 1024px;
+  }
 }
 
 @media only screen and (max-width: 470px) {
   .product-container, nav, header, .banner-container {
     width: auto;
   }
-
-  .banner-content h4 {
-    display: none;
+  .banner-container {
+    align-items: flex-end;
+    height: 15rem;
   }
-
-.banner-container {
-  align-items: flex-end;
-  border: 1px solid white;
-}
-
+  .new-arrival-container {
+    margin-top: 10rem;
+  }
+  .new-arrival h4 {
+    font-size: 0.77rem;
+  }
+  .new-arrival h2 {
+    font-size: 1rem;
+  }
   #cellular-watch {
     display: none;
   }
-
   .product {
     width: 90%;
   }
-
   .info-container {
     display: block;
     width: 90%;
   }
-
+  .info-sub-container {
+    width: 90%;
+    margin-top: 0.5rem;
+  }
   .footer-content {
+    max-width: 470px;
     text-align: center;
   }
 }
