@@ -92,6 +92,10 @@ nav {
   padding-bottom: 0.75rem;
 }
 
+.menu-item {
+  display: none;
+}
+
 /* Product Grid */
 
 .product-container {
@@ -178,4 +182,57 @@ footer {
 .footer-content {
   width: 960px;
   margin: auto;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1024px) {
+  .info-container, .product-container, nav, header, .banner-container {
+    width: auto;
+    border: 1px solid white;
+  }
+  .menu span {
+    display: none;
+  }
+  .menu-item {
+    display: inline;
+  }
+  #thermal-glasses {
+    display: none;
+  }
+  .product {
+    width: 47%;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .product-container, nav, header, .banner-container {
+    width: auto;
+  }
+
+  .banner-content h4 {
+    display: none;
+  }
+
+.banner-container {
+  align-items: flex-end;
+  border: 1px solid white;
+}
+
+  #cellular-watch {
+    display: none;
+  }
+
+  .product {
+    width: 90%;
+  }
+
+  .info-container {
+    display: block;
+    width: 90%;
+  }
+
+  .footer-content {
+    text-align: center;
+  }
 }
