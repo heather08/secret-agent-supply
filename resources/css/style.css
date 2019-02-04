@@ -188,8 +188,8 @@ footer {
 /* Media Queries */
 
 @media only screen and (max-width: 1024px) {
-  .info-container, .product-container, nav, header, .banner-container {
-    width: auto;
+  .info-container, .product-container, nav, header, footer, .banner-container, .navigation-container {
+    max-width: 1024px;
     overflow: hidden;
   }
   .menu span {
